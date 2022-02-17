@@ -4,103 +4,227 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "out[0]",
+					"name" : "HEX0[0]",
 					"strict" : false
 				},
 				{
-					"name" : "out[1]",
+					"name" : "HEX0[1]",
 					"strict" : false
 				},
 				{
-					"name" : "out[2]",
+					"name" : "HEX0[2]",
 					"strict" : false
 				},
 				{
-					"name" : "out[3]",
+					"name" : "HEX0[3]",
 					"strict" : false
 				},
 				{
-					"name" : "out[4]",
+					"name" : "HEX0[4]",
 					"strict" : false
 				},
 				{
-					"name" : "out[5]",
+					"name" : "HEX0[5]",
 					"strict" : false
 				},
 				{
-					"name" : "out[6]",
+					"name" : "HEX0[6]",
 					"strict" : false
 				},
 				{
-					"name" : "out[7]",
+					"name" : "HEX1[0]",
 					"strict" : false
 				},
 				{
-					"name" : "X",
+					"name" : "HEX1[1]",
 					"strict" : false
 				},
 				{
-					"name" : "S[0]",
+					"name" : "HEX1[2]",
 					"strict" : false
 				},
 				{
-					"name" : "A[0]",
+					"name" : "HEX1[3]",
 					"strict" : false
 				},
 				{
-					"name" : "S[1]",
+					"name" : "HEX1[4]",
 					"strict" : false
 				},
 				{
-					"name" : "A[1]",
+					"name" : "HEX1[5]",
 					"strict" : false
 				},
 				{
-					"name" : "S[2]",
+					"name" : "HEX1[6]",
 					"strict" : false
 				},
 				{
-					"name" : "A[2]",
+					"name" : "HEX2[0]",
 					"strict" : false
 				},
 				{
-					"name" : "A[3]",
+					"name" : "HEX2[1]",
 					"strict" : false
 				},
 				{
-					"name" : "S[3]",
+					"name" : "HEX2[2]",
 					"strict" : false
 				},
 				{
-					"name" : "S[4]",
+					"name" : "HEX2[3]",
 					"strict" : false
 				},
 				{
-					"name" : "A[4]",
+					"name" : "HEX2[4]",
 					"strict" : false
 				},
 				{
-					"name" : "S[5]",
+					"name" : "HEX2[5]",
 					"strict" : false
 				},
 				{
-					"name" : "A[5]",
+					"name" : "HEX2[6]",
 					"strict" : false
 				},
 				{
-					"name" : "S[6]",
+					"name" : "HEX3[0]",
 					"strict" : false
 				},
 				{
-					"name" : "A[6]",
+					"name" : "HEX3[1]",
 					"strict" : false
 				},
 				{
-					"name" : "S[7]",
+					"name" : "HEX3[2]",
 					"strict" : false
 				},
 				{
-					"name" : "A[7]",
+					"name" : "HEX3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Xval",
+					"strict" : false
+				},
+				{
+					"name" : "Din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "Din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Execute",
 					"strict" : false
 				}
 			]

@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed Feb 16 00:55:33 2022
+Analysis & Synthesis Status : Successful - Thu Feb 17 03:20:06 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lab4-ECE385
-Top-level Entity Name : nineBitAdder
+Top-level Entity Name : control
 Family : MAX 10
-Total logic elements : 15
-    Total combinational functions : 15
-    Dedicated logic registers : 0
-Total registers : 0
-Total pins : 25
+Total logic elements : 84
+    Total combinational functions : 84
+    Dedicated logic registers : 35
+Total registers : 35
+Total pins : 56
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

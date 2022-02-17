@@ -1,0 +1,87 @@
+//Two-always example for state machine
+
+module control (input  logic Clk, Reset, Execute, //Reset is Clear,Reset A, Load B
+					input logic [7:0] Din, 
+                output logic Shift_En, Ld_A, Ld_B );
+
+    enum logic [4:0] {A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q}   curr_state, next_state; 
+
+	//updates flip flop, current state is the only one
+    always_ff @ (posedge Clk)  
+    begin
+        if (Reset)
+            curr_state <= A;
+        else 
+            curr_state <= next_state;
+    end
+
+    // Assign outputs based on state
+	always_comb
+    begin
+        
+		  next_state  = curr_state;	//required because I haven't enumerated all possibilities below
+        unique case (curr_state) 
+
+            A :    if (Execute)
+                       next_state = B;
+            B :    next_state = C;
+            C :    next_state = D;
+            D :    next_state = E;
+            E :    next_state = F;
+				//CHANGE for 8 bit
+				F :    next_state = G;
+            G :    next_state = H;
+            H :    next_state = I;
+            I :    next_state = J;
+				J :    next_state = K;
+				K :    next_state = L;
+				L :    next_state = M;
+				M :    next_state = N;
+				N :    next_state = O;
+				O :    next_state = P;
+				P :    next_state = Q;
+				
+            Q :    if (~Execute) 
+                       next_state = A;
+							  
+        endcase
+		  
+		  //Instantiate necessary modules
+		  logic X, LoadA, Shift_en, A_Shift_Out, garbage, subtract;
+		  logic [7:0] AOut, BOut, Adder_Sum, MPOut;
+		  
+		  reg_8 REG_A(.Clk(Clk), .Reset(Reset), .Shift_In(X), .Load(LoadA), 
+							.Shift_En(Shift_En), .D[Adder_Sum], .Shift_Out(A_Shift_Out), .Data_Out(AOut));
+							
+		  reg_8 REG_B(.Clk(Clk), .Reset(Reset), .Shift_In(A_Shift_Out), .Load(Reset), 
+							.Shift_En(Shift_En), .D[Din], .Shift_Out(garbage), .Data_Out(BOut));
+							
+		  multiplexer MP(.sub(subtract), .S0(Din), .SOut(MPOut));
+		  
+		  nineBitAdder (.S(MPOut), .A(Aout), .out(Adder_Sum), .X(X)
+		  
+   
+		  // Assign outputs based on ‘state’
+        case (curr_state) 
+	   	   A: 
+	         begin
+                Ld_A = LoadA;
+                Ld_B = LoadB;
+                Shift_En = 1'b0;
+		      end
+	   	   F: 
+		      begin
+                Ld_A = 1'b0;
+                Ld_B = 1'b0;
+                Shift_En = 1'b0;
+		      end
+	   	   default:  //default case, can also have default assignments for Ld_A and Ld_B before case
+		      begin 
+                Ld_A = 1'b0;
+                Ld_B = 1'b0;
+                Shift_En = 1'b1;
+		      end
+        endcase
+    end
+
+endmodule

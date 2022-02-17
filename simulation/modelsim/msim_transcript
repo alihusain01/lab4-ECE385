@@ -1,0 +1,1915 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:30 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:13:30 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:30 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:13:30 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:30 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:13:30 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:30 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:13:31 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:31 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:13:31 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:31 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:13:31 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:31 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:13:31 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:31 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:13:31 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:13:31 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (8) does not match connection size (9) for port 'S'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (8) does not match connection size (9) for port 'out'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# ** Warning: (vsim-3839) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(28): Variable '/testbench_1/CT/Xval', driven via a port connection, is multiply driven. See C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT
+do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:05 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:18:05 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:05 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:18:05 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:05 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:18:05 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:05 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:18:05 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:05 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:18:05 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:05 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:18:06 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:18:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:18:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:18:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:18:10 on Feb 17,2022, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 5
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:18:10 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (8) does not match connection size (9) for port 'S'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (8) does not match connection size (9) for port 'out'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# ** Warning: (vsim-3839) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(28): Variable '/testbench_1/CT/Xval', driven via a port connection, is multiply driven. See C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT
+# Error opening C:/Users/alijh/Documents/ECE 385/lab4-ECE385/simulation/modelsim/[PCDPC] - Port size (8) does not match connection size 
+# Path name 'C:/Users/alijh/Documents/ECE 385/lab4-ECE385/simulation/modelsim/[PCDPC] - Port size (8) does not match connection size ' doesn't exist.
+do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:26:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:26:46 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:26:46 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:26:49 on Feb 17,2022, Elapsed time: 0:08:39
+# Errors: 1, Warnings: 5
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:26:49 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(213): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(221): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(29): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT
+do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:28:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:16 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:16 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:16 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:16 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:16 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:16 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:28:16 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:28:19 on Feb 17,2022, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:28:19 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(213): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(221): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(29): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT
+do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:39 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:28:39 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:28:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:28:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:28:43 on Feb 17,2022, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:28:43 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(213): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(221): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:34:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:34:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:34:25 on Feb 17,2022, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:34:25 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(213): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(221): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:14 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:39:14 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:39:15 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:39:15 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:39:19 on Feb 17,2022, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:39:19 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# ** Error (suppressible): (vsim-3053) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): Illegal output or inout port connection for port 'X'.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab4-ECE385_run_msim_rtl_verilog.do PAUSED at line 18
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:45 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:40:45 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:39:19 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:06 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:43:06 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:43:10 on Feb 17,2022, Elapsed time: 0:03:51
+# Errors: 1, Warnings: 4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:43:10 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Error: (vsim-3043) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv(14): Unresolved reference to 'ct'.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1 File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab4-ECE385_run_msim_rtl_verilog.do PAUSED at line 18
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:35 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:43:35 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:35 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:43:35 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:35 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:43:35 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:35 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:43:35 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:35 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:43:35 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:35 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:43:36 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:36 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:43:36 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:43:36 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:43:36 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:43:10 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+# Can't move the Now cursor.
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:25 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:47:25 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:25 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:47:25 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:25 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:47:25 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:25 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# ** Error: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv(12): (vlog-2730) Undefined variable: 's0'.
+# End time: 02:47:25 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./lab4-ECE385_run_msim_rtl_verilog.do line 11
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}"
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:39 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:47:39 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:39 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:47:39 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:39 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:47:39 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:39 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:47:40 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:47:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:47:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:47:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:40 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:47:40 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:47:43 on Feb 17,2022, Elapsed time: 0:04:33
+# Errors: 6, Warnings: 4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:47:43 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:55:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 02:55:21 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:21 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 02:55:22 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:22 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 02:55:22 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:22 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 02:55:22 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:22 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 02:55:22 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:22 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 02:55:22 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:55:22 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 02:55:22 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 02:55:26 on Feb 17,2022, Elapsed time: 0:07:43
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 02:55:26 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+add wave -position end  sim:/testbench_1/CT/REG_X/D
+add wave -position end  sim:/testbench_1/CT/add/A
+add wave -position end  sim:/testbench_1/CT/add/X
+restart -f
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+run 1000ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:56 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 03:02:56 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:56 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 03:02:56 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:56 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 03:02:56 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:57 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 03:02:57 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:57 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 03:02:57 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:57 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 03:02:57 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:57 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 03:02:57 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:02:57 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 03:02:57 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 03:03:00 on Feb 17,2022, Elapsed time: 0:07:34
+# Errors: 0, Warnings: 4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 03:03:00 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+restart -f
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(214): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(222): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+run 1000ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 03:07:11 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 03:07:11 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 03:07:11 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 03:07:11 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 03:07:11 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 03:07:11 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:11 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 03:07:12 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:07:12 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 03:07:12 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 03:07:16 on Feb 17,2022, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 03:07:16 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(215): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(225): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+restart -f
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(215): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(225): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+run 1000ns
+do lab4-ECE385_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv 
+# -- Compiling module full_adder
+# -- Compiling module fourbitRippleAdder
+# -- Compiling module nineBitAdder
+# 
+# Top level modules:
+# 	nineBitAdder
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv 
+# -- Compiling module negate
+# 
+# Top level modules:
+# 	negate
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv 
+# -- Compiling module multiplexer
+# 
+# Top level modules:
+# 	multiplexer
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv 
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_1
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 03:20:38 on Feb 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/lab4-ECE385 {C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:20:38 on Feb 17,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/lab4-ECE385" C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv 
+# -- Compiling module testbench_1
+# 
+# Top level modules:
+# 	testbench_1
+# End time: 03:20:39 on Feb 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_1
+# End time: 03:20:42 on Feb 17,2022, Elapsed time: 0:13:26
+# Errors: 0, Warnings: 4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_1 
+# Start time: 03:20:43 on Feb 17,2022
+# Loading sv_std.std
+# Loading work.testbench_1
+# Loading work.control
+# Loading work.reg_1
+# Loading work.reg_8
+# Loading work.multiplexer
+# Loading work.negate
+# Loading work.full_adder
+# Loading work.fourbitRippleAdder
+# Loading work.nineBitAdder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(215): [PCDPC] - Port size (8) does not match connection size (9) for port 'D'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/REG_A File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_8.sv
+# ** Warning: (vsim-3015) C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv(225): [PCDPC] - Port size (9) does not match connection size (8) for port 'A'. The port definition is at: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_1/CT/add File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 800 ns
+# End time: 03:21:36 on Feb 17,2022, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2

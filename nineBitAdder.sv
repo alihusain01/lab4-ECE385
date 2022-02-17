@@ -21,14 +21,19 @@ logic c1, c2, c3;
 endmodule
 
 
-module nineBitAdder (input logic [7:0] S, A,
-							output logic [7:0] out,
+module nineBitAdder (input logic [8:0] S, A,
+							input logic cin,
+							output logic [8:0] out, 
 							output logic X);
 
-logic cout;
+logic cout, cout2, garbage;
 							
-fourbitRippleAdder RA0(.A(S[3:0]), .B(A[3:0]), .cin(1'b0), .S(out[3:0]), .cout(cout));
-fourbitRippleAdder RA1(.A(S[7:4]), .B(A[7:4]), .cin(cout), .S(out[7:4]), .cout(X)); //check proper X later
-							
+fourbitRippleAdder RA0(.A(S[3:0]), .B(A[3:0]), .cin(cin), .S(out[3:0]), .cout(cout));
+fourbitRippleAdder RA1(.A(S[7:4]), .B(A[7:4]), .cin(cout), .S(out[7:4]), .cout(cout2));
+full_adder FA0 (.x(S[8]), .y(A[8]), .z(cout2), .s(out[8]), .c(garbage));
+
+assign X = garbage;
+//assign X = out[8];
+														
 endmodule
 							
