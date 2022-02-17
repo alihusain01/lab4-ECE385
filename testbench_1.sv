@@ -33,10 +33,12 @@ end
 
 initial begin: TEST_VECTORS
 
-Din = 8'b11000101;
+//Din = 8'b11000101;
+Din = 8'b00001000;
 #1 Reset = 1'b1;
 #2 Reset = 1'b0;
-#3 Din = 8'b00000111;
+//#3 Din = 8'b00000111;
+#3 Din = 8'b11111110;
 #4 Execute = 1'b1;
 	
 end

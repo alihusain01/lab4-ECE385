@@ -19,7 +19,7 @@ logic c1, c2, c3;
 	full_adder FA3(.x(A[3]), .y(B[3]), .z(c3), .s(S[3]), .c(cout));
 
 endmodule
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 module nineBitAdder (input logic [8:0] S, A,
 							input logic cin,

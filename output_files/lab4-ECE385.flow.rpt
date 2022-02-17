@@ -1,5 +1,5 @@
 Flow report for lab4-ECE385
-Thu Feb 17 03:20:06 2022
+Thu Feb 17 16:15:45 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Feb 17 03:20:06 2022       ;
+; Flow Status                        ; Successful - Thu Feb 17 16:15:45 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4-ECE385                                 ;
 ; Top-level Entity Name              ; control                                     ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 84                                          ;
-;     Total combinational functions  ; 84                                          ;
+; Total logic elements               ; 98                                          ;
+;     Total combinational functions  ; 98                                          ;
 ;     Dedicated logic registers      ; 35                                          ;
 ; Total registers                    ; 35                                          ;
-; Total pins                         ; 56                                          ;
+; Total pins                         ; 70                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/17/2022 03:19:44 ;
+; Start date & time ; 02/17/2022 16:15:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab4-ECE385         ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 174508013120537.164508958419920        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 174508013120537.164513612100976        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench_1    ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_1                            ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
@@ -105,8 +105,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4764 MB             ; 00:00:30                           ;
-; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:30                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4764 MB             ; 00:00:55                           ;
+; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:55                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

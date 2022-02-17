@@ -5,15 +5,17 @@ module control (input  logic Clk, Reset, Execute, //Reset is Clear,Reset A, Load
                 output logic [6:0] HEX0, 
 										 HEX1, 
 										 HEX2, 
-										 HEX3, 
+										 HEX3,
+										 HEX4, 
+										 HEX5,
 					output logic [7:0] Aval, Bval, 
 					output logic Xval);
-	logic XPlus, LoadA, LoadX, Shift_En, A_Shift_Out, X_Shift_Out, garbage, garbage2, Subtract, X_Value;
+	logic LoadA, LoadX, Shift_En, A_Shift_Out, X_Shift_Out, garbage, garbage2, Subtract, X_Data;
 	logic [7:0] A_Data;
 	logic [8:0] Adder_Sum, MPOut;
-	assign X_Value = Adder_Sum[8];
-	assign Xval = XPlus;
+	assign Xval = X_Data;
     enum logic [4:0] {A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S}   curr_state, next_state; 
+	 
 
 	//updates flip flop, current state is the only one
     always_ff @ (posedge Clk)  
@@ -209,11 +211,11 @@ module control (input  logic Clk, Reset, Execute, //Reset is Clear,Reset A, Load
   //Instantiate necessary modules
 
 		  
-		  reg_1 REG_X(.Clk(Clk), .Reset(Reset), .Load(LoadX), 
-							.Shift_En(Shift_En), .D(X_Value), .Data_Out(XPlus));
+		  reg_1 REG_X(.Clk(Clk), .Reset(Reset), .Shift_In(X_Data), .Load(LoadX), 
+							.Shift_En(Shift_En), .D(Adder_Sum[8]), .Shift_Out(X_Shift_Out), .Data_Out(X_Data));
 		  
-		  reg_8 REG_A(.Clk(Clk), .Reset(Reset), .Shift_In(XPlus), .Load(LoadA), 
-							.Shift_En(Shift_En), .D(Adder_Sum), .Shift_Out(A_Shift_Out), .Data_Out(A_Data));
+		  reg_8 REG_A(.Clk(Clk), .Reset(Reset), .Shift_In(X_Shift_Out), .Load(LoadA), 
+							.Shift_En(Shift_En), .D(Adder_Sum[7:0]), .Shift_Out(A_Shift_Out), .Data_Out(A_Data));
 							
 		  assign Aval = A_Data;
 							
@@ -222,14 +224,19 @@ module control (input  logic Clk, Reset, Execute, //Reset is Clear,Reset A, Load
 							
 		  multiplexer MP(.sub(Subtract), .S0(Din), .Sout(MPOut));
 		  
-		  nineBitAdder add(.S(MPOut), .A(A_Data), .cin(Subtract), .out(Adder_Sum), .X(garbage2));
+		  nineBitAdder add(.S(MPOut), .A({A_Data[7], A_Data}), .cin(Subtract), .out(Adder_Sum), .X(garbage2));
 		  
 		  
-		  HexDriver display[3:0](
-		  .In0({Aval[7:4], Aval[3:0], Bval[7:4], Bval[3:0]}),
-		  .Out0({HEX3, HEX2, HEX1, HEX0})
+//		  HexDriver display[3:0](
+//		  .In0({Aval[7:4], Aval[3:0], Bval[7:4], Bval[3:0]}),
+//		  .Out0({HEX3, HEX2, HEX1, HEX0})
+//		  );
+
+			HexDriver display[5:0](
+		  .In0({Aval[7:4], Aval[3:0], Bval[7:4], Bval[3:0], Din[7:4], Din[3:0]}),
+		  .Out0({HEX5, HEX4, HEX3, HEX2, HEX1, HEX0})
 		  );
-		  
+		   
 		  
 		  
 endmodule

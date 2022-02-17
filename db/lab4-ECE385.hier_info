@@ -45,60 +45,76 @@ Din[4] => Din[4].IN2
 Din[5] => Din[5].IN2
 Din[6] => Din[6].IN2
 Din[7] => Din[7].IN2
-HEX0[0] <= HexDriver:display[0].Out0[0]
-HEX0[1] <= HexDriver:display[0].Out0[1]
-HEX0[2] <= HexDriver:display[0].Out0[2]
-HEX0[3] <= HexDriver:display[0].Out0[3]
-HEX0[4] <= HexDriver:display[0].Out0[4]
-HEX0[5] <= HexDriver:display[0].Out0[5]
-HEX0[6] <= HexDriver:display[0].Out0[6]
-HEX1[0] <= HexDriver:display[1].Out0[0]
-HEX1[1] <= HexDriver:display[1].Out0[1]
-HEX1[2] <= HexDriver:display[1].Out0[2]
-HEX1[3] <= HexDriver:display[1].Out0[3]
-HEX1[4] <= HexDriver:display[1].Out0[4]
-HEX1[5] <= HexDriver:display[1].Out0[5]
-HEX1[6] <= HexDriver:display[1].Out0[6]
-HEX2[0] <= HexDriver:display[2].Out0[0]
-HEX2[1] <= HexDriver:display[2].Out0[1]
-HEX2[2] <= HexDriver:display[2].Out0[2]
-HEX2[3] <= HexDriver:display[2].Out0[3]
-HEX2[4] <= HexDriver:display[2].Out0[4]
-HEX2[5] <= HexDriver:display[2].Out0[5]
-HEX2[6] <= HexDriver:display[2].Out0[6]
-HEX3[0] <= HexDriver:display[3].Out0[0]
-HEX3[1] <= HexDriver:display[3].Out0[1]
-HEX3[2] <= HexDriver:display[3].Out0[2]
-HEX3[3] <= HexDriver:display[3].Out0[3]
-HEX3[4] <= HexDriver:display[3].Out0[4]
-HEX3[5] <= HexDriver:display[3].Out0[5]
-HEX3[6] <= HexDriver:display[3].Out0[6]
-Aval[0] <= A_Data[0].DB_MAX_OUTPUT_PORT_TYPE
-Aval[1] <= A_Data[1].DB_MAX_OUTPUT_PORT_TYPE
-Aval[2] <= A_Data[2].DB_MAX_OUTPUT_PORT_TYPE
-Aval[3] <= A_Data[3].DB_MAX_OUTPUT_PORT_TYPE
-Aval[4] <= A_Data[4].DB_MAX_OUTPUT_PORT_TYPE
-Aval[5] <= A_Data[5].DB_MAX_OUTPUT_PORT_TYPE
-Aval[6] <= A_Data[6].DB_MAX_OUTPUT_PORT_TYPE
-Aval[7] <= A_Data[7].DB_MAX_OUTPUT_PORT_TYPE
-Bval[0] <= reg_8:REG_B.Data_Out
-Bval[1] <= reg_8:REG_B.Data_Out
-Bval[2] <= reg_8:REG_B.Data_Out
-Bval[3] <= reg_8:REG_B.Data_Out
-Bval[4] <= reg_8:REG_B.Data_Out
-Bval[5] <= reg_8:REG_B.Data_Out
-Bval[6] <= reg_8:REG_B.Data_Out
-Bval[7] <= reg_8:REG_B.Data_Out
-Xval <= XPlus.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] << HexDriver:display[0].Out0[0]
+HEX0[1] << HexDriver:display[0].Out0[1]
+HEX0[2] << HexDriver:display[0].Out0[2]
+HEX0[3] << HexDriver:display[0].Out0[3]
+HEX0[4] << HexDriver:display[0].Out0[4]
+HEX0[5] << HexDriver:display[0].Out0[5]
+HEX0[6] << HexDriver:display[0].Out0[6]
+HEX1[0] << HexDriver:display[1].Out0[0]
+HEX1[1] << HexDriver:display[1].Out0[1]
+HEX1[2] << HexDriver:display[1].Out0[2]
+HEX1[3] << HexDriver:display[1].Out0[3]
+HEX1[4] << HexDriver:display[1].Out0[4]
+HEX1[5] << HexDriver:display[1].Out0[5]
+HEX1[6] << HexDriver:display[1].Out0[6]
+HEX2[0] << HexDriver:display[2].Out0[0]
+HEX2[1] << HexDriver:display[2].Out0[1]
+HEX2[2] << HexDriver:display[2].Out0[2]
+HEX2[3] << HexDriver:display[2].Out0[3]
+HEX2[4] << HexDriver:display[2].Out0[4]
+HEX2[5] << HexDriver:display[2].Out0[5]
+HEX2[6] << HexDriver:display[2].Out0[6]
+HEX3[0] << HexDriver:display[3].Out0[0]
+HEX3[1] << HexDriver:display[3].Out0[1]
+HEX3[2] << HexDriver:display[3].Out0[2]
+HEX3[3] << HexDriver:display[3].Out0[3]
+HEX3[4] << HexDriver:display[3].Out0[4]
+HEX3[5] << HexDriver:display[3].Out0[5]
+HEX3[6] << HexDriver:display[3].Out0[6]
+HEX4[0] << HexDriver:display[4].Out0[0]
+HEX4[1] << HexDriver:display[4].Out0[1]
+HEX4[2] << HexDriver:display[4].Out0[2]
+HEX4[3] << HexDriver:display[4].Out0[3]
+HEX4[4] << HexDriver:display[4].Out0[4]
+HEX4[5] << HexDriver:display[4].Out0[5]
+HEX4[6] << HexDriver:display[4].Out0[6]
+HEX5[0] << HexDriver:display[5].Out0[0]
+HEX5[1] << HexDriver:display[5].Out0[1]
+HEX5[2] << HexDriver:display[5].Out0[2]
+HEX5[3] << HexDriver:display[5].Out0[3]
+HEX5[4] << HexDriver:display[5].Out0[4]
+HEX5[5] << HexDriver:display[5].Out0[5]
+HEX5[6] << HexDriver:display[5].Out0[6]
+Aval[0] << A_Data[0].DB_MAX_OUTPUT_PORT_TYPE
+Aval[1] << A_Data[1].DB_MAX_OUTPUT_PORT_TYPE
+Aval[2] << A_Data[2].DB_MAX_OUTPUT_PORT_TYPE
+Aval[3] << A_Data[3].DB_MAX_OUTPUT_PORT_TYPE
+Aval[4] << A_Data[4].DB_MAX_OUTPUT_PORT_TYPE
+Aval[5] << A_Data[5].DB_MAX_OUTPUT_PORT_TYPE
+Aval[6] << A_Data[6].DB_MAX_OUTPUT_PORT_TYPE
+Aval[7] << A_Data[7].DB_MAX_OUTPUT_PORT_TYPE
+Bval[0] << reg_8:REG_B.Data_Out
+Bval[1] << reg_8:REG_B.Data_Out
+Bval[2] << reg_8:REG_B.Data_Out
+Bval[3] << reg_8:REG_B.Data_Out
+Bval[4] << reg_8:REG_B.Data_Out
+Bval[5] << reg_8:REG_B.Data_Out
+Bval[6] << reg_8:REG_B.Data_Out
+Bval[7] << reg_8:REG_B.Data_Out
+Xval << X_Data.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |control|reg_1:REG_X
-Clk => data.CLK
-Reset => data_n.OUTPUTSELECT
-Load => data_n.OUTPUTSELECT
-Shift_En => ~NO_FANOUT~
-D => data_n.DATAB
-Data_Out <= data.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Data_Out~reg0.CLK
+Reset => Data_Out.OUTPUTSELECT
+Shift_In => Data_Out.DATAB
+Load => Data_Out.OUTPUTSELECT
+Shift_En => Data_Out.OUTPUTSELECT
+D => Data_Out.DATAB
+Shift_Out <= Data_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out <= Data_Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |control|reg_8:REG_A
@@ -542,7 +558,7 @@ out[5] <= fourbitRippleAdder:RA1.S
 out[6] <= fourbitRippleAdder:RA1.S
 out[7] <= fourbitRippleAdder:RA1.S
 out[8] <= full_adder:FA0.s
-X <= <GND>
+X <= full_adder:FA0.c
 
 
 |control|nineBitAdder:add|fourbitRippleAdder:RA0
@@ -748,6 +764,34 @@ Out0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |control|HexDriver:display[3]
+In0[0] => Decoder0.IN3
+In0[1] => Decoder0.IN2
+In0[2] => Decoder0.IN1
+In0[3] => Decoder0.IN0
+Out0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|control|HexDriver:display[4]
+In0[0] => Decoder0.IN3
+In0[1] => Decoder0.IN2
+In0[2] => Decoder0.IN1
+In0[3] => Decoder0.IN0
+Out0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|control|HexDriver:display[5]
 In0[0] => Decoder0.IN3
 In0[1] => Decoder0.IN2
 In0[2] => Decoder0.IN1

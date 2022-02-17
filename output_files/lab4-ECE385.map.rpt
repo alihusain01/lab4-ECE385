@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab4-ECE385
-Thu Feb 17 03:20:06 2022
+Thu Feb 17 16:15:45 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -17,25 +17,23 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   9. Registers Removed During Synthesis
  10. General Register Statistics
  11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Port Connectivity Checks: "nineBitAdder:add|full_adder:FA0"
- 13. Port Connectivity Checks: "nineBitAdder:add"
- 14. Port Connectivity Checks: "multiplexer:MP|negate:N0|fourbitRippleAdder:RA1"
- 15. Port Connectivity Checks: "multiplexer:MP|negate:N0|fourbitRippleAdder:RA0"
- 16. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA7"
- 17. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA6"
- 18. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA5"
- 19. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA4"
- 20. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA3"
- 21. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA2"
- 22. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA1"
- 23. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA0"
- 24. Port Connectivity Checks: "multiplexer:MP|negate:N0"
- 25. Port Connectivity Checks: "reg_8:REG_B"
- 26. Port Connectivity Checks: "reg_8:REG_A"
- 27. Post-Synthesis Netlist Statistics for Top Partition
- 28. Elapsed Time Per Partition
- 29. Analysis & Synthesis Messages
- 30. Analysis & Synthesis Suppressed Messages
+ 12. Port Connectivity Checks: "nineBitAdder:add"
+ 13. Port Connectivity Checks: "multiplexer:MP|negate:N0|fourbitRippleAdder:RA1"
+ 14. Port Connectivity Checks: "multiplexer:MP|negate:N0|fourbitRippleAdder:RA0"
+ 15. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA7"
+ 16. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA6"
+ 17. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA5"
+ 18. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA4"
+ 19. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA3"
+ 20. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA2"
+ 21. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA1"
+ 22. Port Connectivity Checks: "multiplexer:MP|negate:N0|full_adder:FA0"
+ 23. Port Connectivity Checks: "multiplexer:MP|negate:N0"
+ 24. Port Connectivity Checks: "reg_8:REG_B"
+ 25. Post-Synthesis Netlist Statistics for Top Partition
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
+ 28. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -61,16 +59,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Feb 17 03:20:06 2022       ;
+; Analysis & Synthesis Status        ; Successful - Thu Feb 17 16:15:45 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4-ECE385                                 ;
 ; Top-level Entity Name              ; control                                     ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 84                                          ;
-;     Total combinational functions  ; 84                                          ;
+; Total logic elements               ; 98                                          ;
+;     Total combinational functions  ; 98                                          ;
 ;     Dedicated logic registers      ; 35                                          ;
 ; Total registers                    ; 35                                          ;
-; Total pins                         ; 56                                          ;
+; Total pins                         ; 70                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -203,30 +201,30 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 84          ;
+; Estimated Total logic elements              ; 98          ;
 ;                                             ;             ;
-; Total combinational functions               ; 84          ;
+; Total combinational functions               ; 98          ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 47          ;
-;     -- 3 input functions                    ; 22          ;
+;     -- 4 input functions                    ; 62          ;
+;     -- 3 input functions                    ; 21          ;
 ;     -- <=2 input functions                  ; 15          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 84          ;
+;     -- normal mode                          ; 98          ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
 ; Total registers                             ; 35          ;
 ;     -- Dedicated logic registers            ; 35          ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 56          ;
+; I/O pins                                    ; 70          ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; Reset~input ;
 ; Maximum fan-out                             ; 37          ;
-; Total fan-out                               ; 481         ;
-; Average fan-out                             ; 2.08        ;
+; Total fan-out                               ; 566         ;
+; Average fan-out                             ; 2.07        ;
 +---------------------------------------------+-------------+
 
 
@@ -235,22 +233,25 @@ refer to the applicable agreement for further details.
 +--------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------+--------------------+--------------+
 ; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                             ; Entity Name        ; Library Name ;
 +--------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------+--------------------+--------------+
-; |control                       ; 84 (22)             ; 35 (18)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 56   ; 0            ; 0          ; |control                                                        ; control            ; work         ;
+; |control                       ; 98 (22)             ; 35 (18)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 70   ; 0            ; 0          ; |control                                                        ; control            ; work         ;
 ;    |HexDriver:display[0]|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|HexDriver:display[0]                                   ; HexDriver          ; work         ;
 ;    |HexDriver:display[1]|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|HexDriver:display[1]                                   ; HexDriver          ; work         ;
 ;    |HexDriver:display[2]|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|HexDriver:display[2]                                   ; HexDriver          ; work         ;
 ;    |HexDriver:display[3]|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|HexDriver:display[3]                                   ; HexDriver          ; work         ;
-;    |nineBitAdder:add|          ; 13 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add                                       ; nineBitAdder       ; work         ;
+;    |HexDriver:display[4]|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|HexDriver:display[4]                                   ; HexDriver          ; work         ;
+;    |HexDriver:display[5]|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|HexDriver:display[5]                                   ; HexDriver          ; work         ;
+;    |nineBitAdder:add|          ; 14 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add                                       ; nineBitAdder       ; work         ;
 ;       |fourbitRippleAdder:RA0| ; 7 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA0                ; fourbitRippleAdder ; work         ;
 ;          |full_adder:FA0|      ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA0|full_adder:FA0 ; full_adder         ; work         ;
 ;          |full_adder:FA1|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA0|full_adder:FA1 ; full_adder         ; work         ;
 ;          |full_adder:FA2|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA0|full_adder:FA2 ; full_adder         ; work         ;
 ;          |full_adder:FA3|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA0|full_adder:FA3 ; full_adder         ; work         ;
-;       |fourbitRippleAdder:RA1| ; 6 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1                ; fourbitRippleAdder ; work         ;
+;       |fourbitRippleAdder:RA1| ; 7 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1                ; fourbitRippleAdder ; work         ;
 ;          |full_adder:FA0|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1|full_adder:FA0 ; full_adder         ; work         ;
 ;          |full_adder:FA1|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1|full_adder:FA1 ; full_adder         ; work         ;
-;          |full_adder:FA2|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1|full_adder:FA2 ; full_adder         ; work         ;
-;    |reg_1:REG_X|               ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|reg_1:REG_X                                            ; reg_1              ; work         ;
+;          |full_adder:FA2|      ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1|full_adder:FA2 ; full_adder         ; work         ;
+;          |full_adder:FA3|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|nineBitAdder:add|fourbitRippleAdder:RA1|full_adder:FA3 ; full_adder         ; work         ;
+;    |reg_1:REG_X|               ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|reg_1:REG_X                                            ; reg_1              ; work         ;
 ;    |reg_8:REG_A|               ; 10 (10)             ; 8 (8)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|reg_8:REG_A                                            ; reg_8              ; work         ;
 ;    |reg_8:REG_B|               ; 9 (9)               ; 8 (8)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |control|reg_8:REG_B                                            ; reg_8              ; work         ;
 +--------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------+--------------------+--------------+
@@ -324,22 +325,12 @@ Encoding Type:  One-Hot
 
 
 +----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "nineBitAdder:add|full_adder:FA0"                                                    ;
+; Port Connectivity Checks: "nineBitAdder:add"                                                                   ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                             ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-; c    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; X    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "nineBitAdder:add"                                                                                                                         ;
-+------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                                   ;
-+------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; A    ; Input  ; Warning  ; Input port expression (8 bits) is smaller than the input port (9 bits) it drives.  Extra input bit(s) "A[8..8]" will be connected to GND. ;
-; X    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                       ;
-+------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -470,35 +461,26 @@ Encoding Type:  One-Hot
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "reg_8:REG_A"                                                                                                                                                                    ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; D    ; Input ; Warning  ; Input port expression (9 bits) is wider than the input port (8 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 56                          ;
+; boundary_port         ; 70                          ;
 ; cycloneiii_ff         ; 35                          ;
 ;     ENA               ; 8                           ;
 ;     ENA SCLR          ; 8                           ;
 ;     SCLR              ; 2                           ;
 ;     plain             ; 17                          ;
-; cycloneiii_lcell_comb ; 88                          ;
-;     normal            ; 88                          ;
-;         1 data inputs ; 4                           ;
+; cycloneiii_lcell_comb ; 104                         ;
+;     normal            ; 104                         ;
+;         1 data inputs ; 6                           ;
 ;         2 data inputs ; 15                          ;
-;         3 data inputs ; 22                          ;
-;         4 data inputs ; 47                          ;
+;         3 data inputs ; 21                          ;
+;         4 data inputs ; 62                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 9.00                        ;
-; Average LUT depth     ; 2.96                        ;
+; Average LUT depth     ; 2.73                        ;
 +-----------------------+-----------------------------+
 
 
@@ -507,7 +489,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -517,7 +499,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Feb 17 03:19:42 2022
+    Info: Processing started: Thu Feb 17 16:15:21 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4-ECE385 -c lab4-ECE385
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -536,35 +518,35 @@ Info (12021): Found 1 design units, including 1 entities, in source file reg_8.s
 Info (12021): Found 1 design units, including 1 entities, in source file control.sv
     Info (12023): Found entity 1: control File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file reg_1.sv
-    Info (12023): Found entity 1: reg_1 File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv Line: 1
+    Info (12023): Found entity 1: reg_1 File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/reg_1.sv Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file testbench_1.sv
     Info (12023): Found entity 1: testbench_1 File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/testbench_1.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file processor.sv
+    Info (12023): Found entity 1: Processor File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/Processor.sv Line: 1
 Info (12127): Elaborating entity "control" for the top level hierarchy
-Info (10264): Verilog HDL Case Statement information at control.sv(62): all case item expressions in this case statement are onehot File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 62
-Info (12128): Elaborating entity "reg_1" for hierarchy "reg_1:REG_X" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 213
-Info (12128): Elaborating entity "reg_8" for hierarchy "reg_8:REG_A" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 216
-Info (12128): Elaborating entity "multiplexer" for hierarchy "multiplexer:MP" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 223
+Info (10264): Verilog HDL Case Statement information at control.sv(64): all case item expressions in this case statement are onehot File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 64
+Info (12128): Elaborating entity "reg_1" for hierarchy "reg_1:REG_X" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 215
+Info (12128): Elaborating entity "reg_8" for hierarchy "reg_8:REG_A" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 218
+Info (12128): Elaborating entity "multiplexer" for hierarchy "multiplexer:MP" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 225
 Info (12128): Elaborating entity "negate" for hierarchy "multiplexer:MP|negate:N0" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/multiplexer.sv Line: 5
 Info (12128): Elaborating entity "full_adder" for hierarchy "multiplexer:MP|negate:N0|full_adder:FA0" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv Line: 6
 Info (12128): Elaborating entity "fourbitRippleAdder" for hierarchy "multiplexer:MP|negate:N0|fourbitRippleAdder:RA0" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/negate.sv Line: 18
-Info (12128): Elaborating entity "nineBitAdder" for hierarchy "nineBitAdder:add" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 225
-Warning (10034): Output port "X" at nineBitAdder.sv(27) has no driver File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/nineBitAdder.sv Line: 27
-Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:display[0]" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 231
-Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (12128): Elaborating entity "nineBitAdder" for hierarchy "nineBitAdder:add" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 227
+Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:display[0]" File: C:/Users/alijh/Documents/ECE 385/lab4-ECE385/control.sv Line: 238
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 5 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/alijh/Documents/ECE 385/lab4-ECE385/output_files/lab4-ECE385.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 140 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 168 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 11 input pins
-    Info (21059): Implemented 45 output pins
-    Info (21061): Implemented 84 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info (21059): Implemented 59 output pins
+    Info (21061): Implemented 98 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4764 megabytes
-    Info: Processing ended: Thu Feb 17 03:20:06 2022
+    Info: Processing ended: Thu Feb 17 16:15:45 2022
     Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Total CPU time (on all processors): 00:00:56
 
 
 +------------------------------------------+

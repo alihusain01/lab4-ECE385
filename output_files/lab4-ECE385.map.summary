@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Thu Feb 17 03:20:06 2022
+Analysis & Synthesis Status : Successful - Thu Feb 17 16:15:45 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lab4-ECE385
 Top-level Entity Name : control
 Family : MAX 10
-Total logic elements : 84
-    Total combinational functions : 84
+Total logic elements : 98
+    Total combinational functions : 98
     Dedicated logic registers : 35
 Total registers : 35
-Total pins : 56
+Total pins : 70
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0
