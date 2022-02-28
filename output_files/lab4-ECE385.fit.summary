@@ -1,7 +1,7 @@
-Fitter Status : Successful - Thu Feb 17 16:06:52 2022
+Fitter Status : Successful - Sun Feb 27 23:13:27 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lab4-ECE385
-Top-level Entity Name : Processor
+Top-level Entity Name : control
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
